@@ -1,0 +1,117 @@
+
+.navbar-inner{
+	background: none;
+	filter : none;
+	border: none;
+	box-shadow: none;
+	
+	background-color: #2d3538;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar .brand{
+	padding-left: 100px;
+	color: #fff;
+	text-shadow: none;
+	
+}
+.navbar .nav > li > a{
+	color: #fff;
+	text-shadow: none;
+}
+
+.navbar .nav > li > a:hover{
+	color: #666;
+}
+
+.navbar .nav .active > a{
+	color: #666;
+	background: none;
+}
+
+.navbar .nav .active > a:hover{
+	background: none;
+}
+
+.navbar .divider-vertical{
+	border-left: 1px solid #1c2022;
+	border-right: 1px solid #3e4a4e;
+}
+#containerForm{
+	background-color: white;
+	width: 320px;
+	height: 340px;
+	margin-top: 100px;
+	margin-left: 580px;
+	border-radius: 5px;
+	--moz-border-radius: 20px;
+	--webkit-border-radius: 5px;
+	box-shadow: 1px 1px 12px #555;
+
+}
+
+#signup{
+
+	padding: 50px;
+
+}
+
+#signin{
+	padding: 50px;
+}
+
+#signup .btn-success{
+	margin-left: 50px;
+}
+
+
+#signin .btn-primary{
+	margin-left: 50px;
+	
+}
+.jumbotron {
+        margin: 80px 0;
+        text-align: center;
+}
+.jumbotron h1 {
+	font-size: 100px;
+	line-height: 1;
+}
+
+.jumbotron .lead {
+	font-size: 24px;
+	line-height: 1.25;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+.containerInline  {
+	text-align: center;
+	padding-top: 10px;
+	height: 30px;
+	border-radius: 5px;
+	--moz-border-radius: 20px;
+	--webkit-border-radius: 5px;
+	box-shadow: 1px 1px 12px #555;
+}
+.containerInline .form-inline > .input-large{
+	padding: 10px;
+	border-radius: 5px;
+	--moz-border-radius: 20px;
+	--webkit-border-radius: 5px;
+	box-shadow: 1px 1px 12px #555;
+	
+}
+.btn-inverse{
+	background: none;		
+	background-color: #2d3538;
+}
+
+
+
+
+
+
