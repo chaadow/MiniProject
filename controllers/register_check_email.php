@@ -1,8 +1,9 @@
 <?php 
 
-    extract($_POST);
-	require_once "../core/PDOManager.class.php";
 
+    //extract($_POST);
+	require_once "../core/PDOManager.class.php";
+    $email= $_POST["email"];
 
     if(isset($email) && !empty($email)){
 
@@ -16,7 +17,7 @@
                 if($sql){
                         echo "Username is taken";
                  }else{
-                        echo "true";
+                        echo "Okay that workss";
                 }
             } catch (PDOException $e) {
                 echo "error register";

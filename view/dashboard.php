@@ -48,7 +48,7 @@ session_start();
     <div class="containerInline">
         <form  method="post" class="form-inline" action="../controllers/url_check.php">
         <input type="text" class="input-large name" placeholder="Name">
-        <input type="password" class="input-large url" placeholder="Url"> 
+        <input type="url" class="input-large url" placeholder="http://"> 
         <button type="submit" class="btn-large btn-inverse">Generate</button>
     </form>
     </div>
@@ -56,7 +56,7 @@ session_start();
 </div>
 
 <!-- (TIP) Google returns the latest version of jquery in the 1 series (from 1.0 to 1.9.9) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/x1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
 </body>
 

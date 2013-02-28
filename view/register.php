@@ -21,7 +21,7 @@ if(isset($_SESSION['user'])){
     <div class="navbar-inner">
         <a class="brand" href="register.php">SupLink</a>
         <ul class="nav pull-right">
-            <li><a href="login.php">Login</a></li>
+            <li><a href="login.php"  >Login</a></li>
             <li class="divider-vertical"></li>
             <li class="active"><a href="register.php">Register</a></li>
             <li class="divider-vertical"></li>
@@ -32,7 +32,11 @@ if(isset($_SESSION['user'])){
 
 <div id="containerForm">
     <form method="post" name="signup" id="signup" action="../controllers/register_check.php">
-        <input type="email" class="mail" name="email" placeholder="E-mail"   required />	<br /><br />
+        <input type="email" id="mail" name="email"  placeholder="E-mail" rel="popover" data-content="sqdd" data-original-title="TITLE OK" data-placement="right"  required />  
+        <div class="alert alert-error" style="display : none">
+            <h4> ERROR:</h4> Username is taken
+        </div>	<br /><br />
+        
         <input type="password"  class="password" name="password" placeholder="Password" required /> <br /><br />
         <input type="password"  class="password" name="confirm" placeholder="Confirmation" required/> <br /><br />
         <input type="submit" class="btn btn-large btn-success" name="inscription" value="Sign up" />
@@ -45,6 +49,7 @@ if(isset($_SESSION['user'])){
 <!-- (TIP) Google returns the latest version of jquery in the 1 series (from 1.0 to 1.9.9) -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js" ></script>
 
 <script type="text/javascript" src="../js/miniproject.js"></script>
 
