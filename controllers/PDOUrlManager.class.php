@@ -1,6 +1,7 @@
 <?php
-require_once("../core/PDOManager.class.php");
-require_once("../model/Url.class.php");
+define("PATH", "/Users/Chedly/Sites/suplink/");
+require_once(PATH."core/PDOManager.class.php");
+require_once(PATH."model/Url.class.php");
 /**
  * Created by JetBrains PhpStorm.
  * User: Chedly
@@ -16,7 +17,7 @@ class PDOUrlManager{
             $PDOmanager = new PDOManager();
             $pdo = $PDOmanager->instantiatePDO();
             $number= rand(50000,149999);
-            $shortUrl= "http://suplink.com/".base_convert($number,24,36); // to have a url with 5 chars.
+            $shortUrl= base_convert($number,24,36); // to have a url with 5 chars. We convert to base 24
             $urlRegister= $pdo->prepare(" INSERT INTO urls(name,url,shortUrl,dateUrl,userId) VALUES (:name, :url, :shortUrl,CURDATE(), :userId)");
             $urlRegister->execute(array(
                 ':name' => $name,

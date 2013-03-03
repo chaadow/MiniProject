@@ -11,7 +11,7 @@ session_start();
 
 
     }else{
-        header("Location:/suplink");
+        header("Location:/suplink/view/");
     }
    $urlManager = new PDOUrlManager();
    $urls = $urlManager->findUrlsById($user->getId());
@@ -81,7 +81,7 @@ session_start();
                         if($url['active']){
                             echo '<tr class="success"><td>' . $url["name"] . '</td>';
                             echo '<td>' . $url["url"] . '</td>';
-                            echo '<td>' . $url["shortUrl"] . '</td>';
+                            echo '<td> suplink.com/' . $url["shortUrl"] . '</td>';
                             echo '<td>' . $url["click"] . '</td>';
                             echo '<td>' . $url["dateUrl"] . '</td> ';
                             echo '<td> <a href="../controllers/active.php?id='.$url['id'].'&active='.$url['active'].'">   <i class="icon-ok"> </i>  </a> </td>';
@@ -89,7 +89,7 @@ session_start();
                         }else{
                             echo '<tr class="error"><td>' . $url["name"] . '</td>';
                             echo '<td>' . $url["url"] . '</td>';
-                            echo '<td>' . $url["shortUrl"] . '</td>';
+                            echo '<td> suplink.com/' . $url["shortUrl"] . '</td>';
                             echo '<td>' . $url["click"] . '</td>';
                             echo '<td>' . $url["dateUrl"] . '</td> ';
                             echo '<td> <a href="../controllers/active.php?id='.$url['id'].'&active='.$url['active'].'"> <i class="icon-off "> </i> </a></td>';

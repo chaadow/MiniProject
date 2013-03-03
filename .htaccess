@@ -1,0 +1,5 @@
+
+RewriteEngine on
+#
+# Internally rewrite shortened URL requests to de-shortened URL lookup script filepath plus query string
+RewriteRule ^([\w\d]{5})$ shorten.php?decode=$1 [L]
