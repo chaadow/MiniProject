@@ -1,9 +1,10 @@
 $(document).ready( function() {
 
 	$("#mail").blur(function(){
-
+        $("#loader").show();
 		//$('.message').html('');
 		var email = $(this).val();
+
 		$.ajax({
 			type: "POST",
 			url: "../controllers/register_check_email.php",
@@ -12,40 +13,39 @@ $(document).ready( function() {
 
 				if(msg!="Email is okay"){
 					$(".alert").html(msg);
-				$(".alert").show();	
+				$(".alert").show();
 				}else{
-                    $(".alert").hide();
+                    $(".alert").html(msg);
+                    $(".alert").show();
                 }
-				
 
-
-				//$("#LoadingImage").hide();
-
-				//$('.message').html(msg);
+				$("#loader").hide();
 
 			}
 
 		});
-		return false;
 
-		 
 	});
-	$(".alert").hide();
+
+$("#signup").submit(function(){
+    $("#loaderform").show();
+
+    var email = $(this).find("input[name=email]").val();
+    var password = $(this).find("input[name=password]").val();
+    var confirm = $(this).find("input[name=confirm]").val();
+    $.ajax({
+        type: "POST",
+        url: "../controllers/register_check_form.php",
+        data: "email="+email+"&password="+password+"&confirm="+confirm,
+        success: function(msg){
+
+                $(".alert").html(msg);
+                $(".alert").show();
+
+            $("#loaderform").hide();
+
+        }
+    });
+        return false;
 });
-
-/*
-$(document).ready( function() {
-		$('#mail').blur(function(){
-			email = $(this).val();
-			$.post("../controllers/register_check_email.php",{email: email}, function(data){
-				alert(data);
-
-			});
-            $(this).popover('show');
-			return false;		
-		});
-			
-	
 });
-
-*/

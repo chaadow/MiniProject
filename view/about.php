@@ -1,21 +1,9 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: Chedly
- * Date: 03/03/13
- * Time: 15:46
- * To change this template use File | Settings | File Templates.
- */
-if (!isset ($_GET["k"])){
-    header("Location:/suplink/view");
-}else{
-    $key = $_GET['k'];
+session_start();
 
-}
-echo $key;
 ?>
 <!DOCTYPE HTML>
-<html>
+<html style="height: 100%;">
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
@@ -25,7 +13,7 @@ echo $key;
 </head>
 
 
-<body>
+<body style="height: 100%;">
 <div class="navbar navbar-static-top">
     <div class="navbar-inner">
         <a class="brand" href="register.php">SupLink</a>
@@ -34,17 +22,26 @@ echo $key;
             <li class="divider-vertical"></li>
             <li><a href="register.php">Register</a></li>
             <li class="divider-vertical"></li>
-            <li><a href="about.php">About</a></li>
+            <li class="active"><a href="about.php">About</a></li>
         </ul>
     </div>
 </div>
-<div class="container">
-    <div class="jumbotron">
-        <h1>SupLink</h1>
-        <p class="lead">Another URL shortener</p>
-        <a class="btn btn-large btn-success" href="register.php">Sign up today</a>
+<div id="wrap">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 style="font-size: 100px;line-height: 1;">SupLink</h1>
+            <p class="lead" style="font-size: 24px; line-height: 1.25;">Another URL shortener</p>
+            <a class="btn btn-large btn-success" href="register.php">Sign up today</a>
+        </div>
+        <hr>
+
     </div>
-    <hr>
+    <div id="push"></div>
+</div>
+<div id="footer">
+    <div class="container">
+        <p class=" muted"> Suplink 2013 - SUPINFO International university</p>
+    </div>
 </div>
 <!-- (TIP) Google returns the latest version of jquery in the 1 series (from 1.0 to 1.9.9) -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>

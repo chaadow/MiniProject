@@ -33,7 +33,7 @@ session_start();
         <a class="brand" href="dashboard.php"> SupLink</a>
         <ul class="nav pull-left">
             <li class="divider-vertical"></li>
-            <li><a href="logout.php"> <i class="icon-home icon-white"> </i>  <?php echo $user->getEmail(); ?></a></li>
+            <li><a href="dashboard.php"> <i class="icon-home icon-white"> </i>  <?php echo $user->getEmail(); ?></a></li>
         </ul>
         
         <ul class="nav pull-right">
@@ -81,15 +81,16 @@ session_start();
                         if($url['active']){
                             echo '<tr class="success"><td>' . $url["name"] . '</td>';
                             echo '<td>' . $url["url"] . '</td>';
-                            echo '<td> suplink.com/' . $url["shortUrl"] . '</td>';
+                            echo '<td> <a href="link.php?k='.$url['id'].'">  suplink.com/' . $url['shortUrl'] . ' </a></td>';
                             echo '<td>' . $url["click"] . '</td>';
                             echo '<td>' . $url["dateUrl"] . '</td> ';
                             echo '<td> <a href="../controllers/active.php?id='.$url['id'].'&active='.$url['active'].'">   <i class="icon-ok"> </i>  </a> </td>';
                             echo '<td> <a href="../controllers/delete.php?id='.$url['id'].'"><i class="icon-trash"> </i>  </a> </td> </tr>';
                         }else{
-                            echo '<tr class="error"><td>' . $url["name"] . '</td>';
+                            echo '<tr class="error"> <td>' . $url["name"] . '</td>';
                             echo '<td>' . $url["url"] . '</td>';
-                            echo '<td> suplink.com/' . $url["shortUrl"] . '</td>';
+                            echo '<td> <a href="link.php?k='.$url['id'].'">  suplink.com/' . $url['shortUrl'] . ' </a></td>';
+                            //echo '<td> <a href="link.php?k='.$url['id'].'"> suplink  </a> </td> ';
                             echo '<td>' . $url["click"] . '</td>';
                             echo '<td>' . $url["dateUrl"] . '</td> ';
                             echo '<td> <a href="../controllers/active.php?id='.$url['id'].'&active='.$url['active'].'"> <i class="icon-off "> </i> </a></td>';

@@ -5,7 +5,7 @@
 	*/
 	class PDOManager
 	{
-		private $PDO_DB = "suplink";
+		private $PDO_DB = "140179suplink";
 		private $PDO_USER = "root";
 		private $PDO_PASS = "root";
 		public function instantiatePDO(){

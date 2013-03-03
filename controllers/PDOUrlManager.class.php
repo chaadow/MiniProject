@@ -31,7 +31,7 @@ class PDOUrlManager{
 
 
     }
-    public function findAllUrls(){
+    private  function findAllUrls(){ //useful for debugging and administration.
         try {
             $PDOmanager = new PDOManager();
             $pdo = $PDOmanager->instantiatePDO();
@@ -48,7 +48,7 @@ class PDOUrlManager{
 
     }
 
-    public function findUrlsById($userId){
+    public  function findUrlsById($userId){
         $PDOManager = new PDOManager();
         $pdo = $PDOManager->instantiatePDO();
 

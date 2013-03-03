@@ -29,11 +29,11 @@
           </div>
     </div>
 	<div class="container">
-			<div class="jumbotron">
-        <h1>SupLink</h1>
-        <p class="lead">Another URL shortener</p>
-        <a class="btn btn-large btn-success" href="register.php">Sign up today</a>
-      </div>
+        <div class="jumbotron">
+            <h1 style="font-size: 100px;line-height: 1;">SupLink</h1>
+            <p class="lead" style="font-size: 24px; line-height: 1.25;">Another URL shortener</p>
+            <a class="btn btn-large btn-success" href="register.php">Sign up today</a>
+        </div>
       <hr>
 		</div>
 <!-- (TIP) Google returns the latest version of jquery in the 1 series (from 1.0 to 1.9.9) -->

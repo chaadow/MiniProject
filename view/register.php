@@ -30,19 +30,22 @@ if(isset($_SESSION['user'])){
     </div>
 </div>
 <div class="container">
- <div class="alert alert-error fade in" style="display : none">
+ <div class="alert alert-info fade in" style="display : none">
             <h4> ERROR:</h4> Username is taken
         </div>
 </div>
 
 <div id="containerForm">
     <form method="post" name="signup" id="signup" action="../controllers/register_check.php">
-        <input type="email" id="mail" name="email"  placeholder="E-mail" rel="popover" data-content="sqdd" data-original-title="TITLE OK" data-placement="right"  required />  
+        <input type="email" id="mail" name="email"  placeholder="E-mail"  required />
+        <img  id="loader" style="display: none; width: 14px; height: 14px;" src="../img/ajax-loader.gif" alt="Loader">
+
        	<br /><br />
         
         <input type="password"  class="password" name="password" placeholder="Password" required /> <br /><br />
         <input type="password"  class="password" name="confirm" placeholder="Confirmation" required/> <br /><br />
         <input type="submit" class="btn btn-large btn-success" name="inscription" value="Sign up" />
+        <img  id="loaderform" style="display: none" src="../img/ajax-loader.gif" alt="Loader">
     </form>
 </div>
 

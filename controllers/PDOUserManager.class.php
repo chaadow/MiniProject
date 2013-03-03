@@ -45,12 +45,12 @@
 						echo "error register";	
 				}
 
+            }else{
+                header("Location:/suplink/view/");
             }
-            $user = new User($pdo->lastInsertId(),$email,sha1($password));
-            $_SESSION['user']=$user;
-            header('Location:../view/dashboard.php');
 
-				
+
+
 
 
 
