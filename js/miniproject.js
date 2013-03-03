@@ -13,7 +13,9 @@ $(document).ready( function() {
 				if(msg!="Email is okay"){
 					$(".alert").html(msg);
 				$(".alert").show();	
-				}
+				}else{
+                    $(".alert").hide();
+                }
 				
 
 

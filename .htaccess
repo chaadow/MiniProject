@@ -1,5 +1,5 @@
 
 RewriteEngine on
-#
-# Internally rewrite shortened URL requests to de-shortened URL lookup script filepath plus query string
-RewriteRule ^([\w\d]{5})$ shorten.php?decode=$1 [L]
+# we put into shorten.php : every digit or word character
+# ( the url generated has 5 character but I put from 0 to 99 to handle the cases where there are more or less of 5 to redirect to the home page.
+RewriteRule ^([\w\d]{0,99})$ shorten.php?shortUrl=$1 [L]
