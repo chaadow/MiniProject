@@ -1,6 +1,7 @@
 <?php
-
-require_once("../model/User.class.php");
+define("PATH", "/Users/Chedly/Sites/suplink/");
+require_once(PATH."model/User.class.php");
+require_once(PATH."controllers/PDOUrlManager.class.php");
 
 session_start();
     if(isset($_SESSION['user'])){
@@ -8,16 +9,19 @@ session_start();
         $user = $_SESSION['user'];
 
 
+
     }else{
-        header("Location:.");
+        header("Location:/suplink");
     }
+   $urlManager = new PDOUrlManager();
+   $urls = $urlManager->findUrlsById($user->getId());
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="../css/miniproject.css" />
+    <link rel="stylesheet" type="text/css" href="/suplink/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/suplink/css/miniproject.css" />
 
     <title>Dashboard</title>
 </head>
@@ -26,14 +30,16 @@ session_start();
 <body>
 <div class="navbar navbar-static-top">
     <div class="navbar-inner">
-        <a class="brand" href="dashboard.php">SupLink</a>
+        <a class="brand" href="dashboard.php"> SupLink</a>
+        <ul class="nav pull-left">
+            <li class="divider-vertical"></li>
+            <li><a href="logout.php"> <i class="icon-home icon-white"> </i>  <?php echo $user->getEmail(); ?></a></li>
+        </ul>
+        
         <ul class="nav pull-right">
 
             <li><a href="logout.php">Logout</a></li>
             <li class="divider-vertical"></li>
-            <li><a href="logout.php"><?php echo $user->getEmail(); ?></a></li>
-            <li class="divider-vertical"></li>
-
             <li><a href="about.php">About</a></li>
         </ul>
     </div>
@@ -45,14 +51,56 @@ session_start();
 
     </div>
     <hr>
-    <div class="containerInline">
-        <form  method="post" class="form-inline" action="../controllers/url_check.php">
-        <input type="text" class="input-large name" placeholder="Name">
-        <input type="url" class="input-large url" placeholder="http://"> 
-        <button type="submit" class="btn-large btn-inverse">Generate</button>
-    </form>
-    </div>
     
+        <form  method="post" class="form-inline" action="../controllers/url_check.php">
+        <input type="text" class="input-large name" name="name" placeholder="Name">
+        <input type="url" class="input-large url" name="url" placeholder="http://"> 
+        <button type="submit" class="btn-large btn-inverse">Generate</button>
+        
+        </form>
+        <hr>
+
+        <table class="table table-striped table-hover  table-bordered ">
+            <thead class="info">
+                <tr>
+                    <th>Name</th>
+                    <th>Original URL</th>
+                    <th>Shortened URL</th>
+                    <th>Clicks</th>
+                    <th>Date created</th>
+                    <th>Enable/Disable</th>
+                    <th>Remove</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                
+                <?php
+                    foreach( $urls as $url){
+                        if($url['active']){
+                            echo '<tr class="success"><td>' . $url["name"] . '</td>';
+                            echo '<td>' . $url["url"] . '</td>';
+                            echo '<td>' . $url["shortUrl"] . '</td>';
+                            echo '<td>' . $url["click"] . '</td>';
+                            echo '<td>' . $url["dateUrl"] . '</td> ';
+                            echo '<td> <a href="../controllers/active.php?id='.$url['id'].'&active='.$url['active'].'">   <i class="icon-ok"> </i>  </a> </td>';
+                            echo '<td> <a href="../controllers/delete.php?id='.$url['id'].'"><i class="icon-trash"> </i>  </a> </td> </tr>';
+                        }else{
+                            echo '<tr class="error"><td>' . $url["name"] . '</td>';
+                            echo '<td>' . $url["url"] . '</td>';
+                            echo '<td>' . $url["shortUrl"] . '</td>';
+                            echo '<td>' . $url["click"] . '</td>';
+                            echo '<td>' . $url["dateUrl"] . '</td> ';
+                            echo '<td> <a href="../controllers/active.php?id='.$url['id'].'&active='.$url['active'].'"> <i class="icon-off "> </i> </a></td>';
+                            echo '<td> <a href="../controllers/delete.php?id='.$url['id'].'"> <i class="icon-trash"> </i>  </a> </td> </tr>';
+                        }
+                    }
+                ?>
+
+            </tbody>
+        </table>
+
 </div>
 
 <!-- (TIP) Google returns the latest version of jquery in the 1 series (from 1.0 to 1.9.9) -->

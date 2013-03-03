@@ -71,46 +71,51 @@
 	
 }
 .jumbotron {
-        margin: 80px 0;
+        margin: 60px 0;
         text-align: center;
 }
 .jumbotron h1 {
-	font-size: 100px;
+	font-size: 72px;
 	line-height: 1;
 }
 
-.jumbotron .lead {
-	font-size: 24px;
-	line-height: 1.25;
-}
+
 
 .jumbotron .btn {
 	font-size: 21px;
 	padding: 14px 24px;
 }
-.containerInline  {
-	text-align: center;
-	padding-top: 10px;
-	height: 30px;
-	border-radius: 5px;
-	--moz-border-radius: 20px;
-	--webkit-border-radius: 5px;
-	box-shadow: 1px 1px 12px #555;
-}
-.containerInline .form-inline > .input-large{
+
+
+.form-inline {
+	/*  */ 
 	padding: 10px;
 	border-radius: 5px;
 	--moz-border-radius: 20px;
 	--webkit-border-radius: 5px;
-	box-shadow: 1px 1px 12px #555;
+	/* margin-top: 30px; 
+	box-shadow: 1px 1px 12px #555; 
+	*/
 	
 }
+.form-inline .input-large{
+	padding: 10px;
+	width: 300px;
+	margin-left: 30px;
+}
 .btn-inverse{
+	margin-left: 30px;
 	background: none;		
 	background-color: #2d3538;
 }
-
-
+.icon-off{
+	text-align: center;
+}
+.alert-error{
+	text-align: center;
+	
+	margin-top: 50px;
+}
 
 
 

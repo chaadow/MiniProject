@@ -29,13 +29,16 @@ if(isset($_SESSION['user'])){
         </ul>
     </div>
 </div>
+<div class="container">
+ <div class="alert alert-error fade in" style="display : none">
+            <h4> ERROR:</h4> Username is taken
+        </div>
+</div>
 
 <div id="containerForm">
     <form method="post" name="signup" id="signup" action="../controllers/register_check.php">
         <input type="email" id="mail" name="email"  placeholder="E-mail" rel="popover" data-content="sqdd" data-original-title="TITLE OK" data-placement="right"  required />  
-        <div class="alert alert-error" style="display : none">
-            <h4> ERROR:</h4> Username is taken
-        </div>	<br /><br />
+       	<br /><br />
         
         <input type="password"  class="password" name="password" placeholder="Password" required /> <br /><br />
         <input type="password"  class="password" name="confirm" placeholder="Confirmation" required/> <br /><br />

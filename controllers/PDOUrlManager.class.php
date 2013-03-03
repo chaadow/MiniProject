@@ -11,20 +11,83 @@ require_once("../model/Url.class.php");
 
 class PDOUrlManager{
 
-    function addUrl($name, $shortName){
+    public function addUrl($name, $url, $userId){
         try{
             $PDOmanager = new PDOManager();
             $pdo = $PDOmanager->instantiatePDO();
-            $urlRegister= $pdo->prepare(" INSERT INTO urls(name,shortanme) VALUES (:name, :shortname)");
+            $number= rand(50000,149999);
+            $shortUrl= "http://suplink.com/".base_convert($number,24,36); // to have a url with 5 chars.
+            $urlRegister= $pdo->prepare(" INSERT INTO urls(name,url,shortUrl,dateUrl,userId) VALUES (:name, :url, :shortUrl,CURDATE(), :userId)");
             $urlRegister->execute(array(
                 ':name' => $name,
-                ':shortname' => $shortName
+                ':url' => $url,
+                ':shortUrl' => $shortUrl,
+                ':userId' => $userId
             ));
         }catch (PDOException $e){
             echo $e->errorInfo;
         }
-        $url = new Url($pdo->lastInsertId(),$name,$shortName);
+
 
     }
+    public function findAllUrls(){
+        try {
+            $PDOmanager = new PDOManager();
+            $pdo = $PDOmanager->instantiatePDO();
+
+            $urls = $pdo->query("SELECT id,name,url,shortUrl,click, DATE_FORMAT(dateUrl, '%d/%m/%Y') AS dateUrl,active,userId FROM urls");
+            $urls = $urls->fetchAll(PDO::FETCH_ASSOC);
+
+            return $urls;
+            
+        } catch (PDOException $e) {
+            echo $e->errorInfo;
+        }
+           
+
+    }
+
+    public function findUrlsById($userId){
+        $PDOManager = new PDOManager();
+        $pdo = $PDOManager->instantiatePDO();
+
+ 
+        $results = $pdo->query("SELECT id,name,url,shortUrl,click, DATE_FORMAT(dateUrl, '%d/%m/%Y') AS dateUrl,active,userId FROM urls WHERE userId='$userId' ");
+        $results = $results->fetchAll(PDO::FETCH_ASSOC);
+ 
+        return $results;
+ 
+    }
+    public function deleteUrl($urlId,$userId){
+        $PDOManager = new PDOManager();
+        $pdo = $PDOManager->instantiatePDO();
+        $result= $pdo->prepare("DELETE FROM urls WHERE id = :urlId && userId = :userId ");
+        $result->execute(array(
+            ':urlId' => $urlId,
+            ':userId'=> $userId
+            )
+        );
+
+    }
+    public function changeActive($currentActive, $urlId){
+        $PDOManager = new PDOManager();
+        $pdo = $PDOManager->instantiatePDO();
+
+        if ($currentActive ==1) {
+            $newActive= 0;
+        }else{
+            $newActive=1;
+        }
+        $querys= $pdo->prepare("UPDATE urls SET active = :newActive WHERE id = :urlId");
+        $querys->execute(array(
+            ':newActive' => $newActive,
+            ':urlId' => $urlId
+            )
+        );
+
+    }
+
+
+
 
 }

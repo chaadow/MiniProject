@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8546b935-3ef6-4f55-8ee1-c3b1126ab290" name="Default" comment="" />
+    <list default="true" id="8546b935-3ef6-4f55-8ee1-c3b1126ab290" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" afterPath="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/register_check_email.php" afterPath="$PROJECT_DIR$/controllers/register_check_email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/url_check.php" afterPath="$PROJECT_DIR$/controllers/url_check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/miniproject.css" afterPath="$PROJECT_DIR$/css/miniproject.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/miniproject.js" afterPath="$PROJECT_DIR$/js/miniproject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard.php" afterPath="$PROJECT_DIR$/view/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/register.php" afterPath="$PROJECT_DIR$/view/register.php" />
+    </list>
     <ignored path="MiniProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,10 +30,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/dashboard.php">
+      <file leaf-file-name="PDOUrlManager.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/PDOUrlManager.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="835" selection-end="835" vertical-scroll-proportion="-6.6666665">
+            <state line="34" column="38" selection-start="1094" selection-end="1094" vertical-scroll-proportion="-10.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_check.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/register_check.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -32,56 +51,25 @@
       <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="8" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-10.791667">
+            <state line="55" column="0" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="miniproject.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/miniproject.js">
+      <file leaf-file-name="url_check.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/url_check.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="32" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1362075772000" expanded="true" signature="60:382" placeholder="{...}" />
-                <marker date="1362075772000" expanded="true" signature="129:358" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-                <marker date="1362075772000" expanded="true" signature="301:358" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="10" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+            <state line="29" column="46" selection-start="638" selection-end="638" vertical-scroll-proportion="-18.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register_check_email.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/register_check_email.php">
+      <file leaf-file-name="PDOManager.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/PDOManager.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.8358663">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_check.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/login_check.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Url.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/Url.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="44" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+            <state line="5" column="10" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,19 +84,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDOUrlManager.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/PDOUrlManager.class.php">
+      <file leaf-file-name="dashboard.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="12" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.44474393">
+              <folding>
+                <marker date="1362276556000" expanded="true" signature="416:442" placeholder="..." />
+                <marker date="1362276556000" expanded="true" signature="423:442" placeholder="..." />
+                <marker date="1362276556000" expanded="true" signature="661:673" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="url_check.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/url_check.php">
+      <file leaf-file-name="User.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/User.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="35" column="36" selection-start="595" selection-end="595" vertical-scroll-proportion="-9.5">
               <folding />
             </state>
           </provider>
@@ -120,6 +112,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -133,11 +128,12 @@
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/model/Url.class.php" />
         <option value="$PROJECT_DIR$/controllers/PDOUserManager.class.php" />
-        <option value="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" />
-        <option value="$PROJECT_DIR$/view/dashboard.php" />
         <option value="$PROJECT_DIR$/view/register.php" />
         <option value="$PROJECT_DIR$/js/miniproject.js" />
         <option value="$PROJECT_DIR$/controllers/register_check_email.php" />
+        <option value="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" />
+        <option value="$PROJECT_DIR$/controllers/url_check.php" />
+        <option value="$PROJECT_DIR$/view/dashboard.php" />
       </list>
     </option>
   </component>
@@ -147,7 +143,7 @@
     <option name="width" value="1440" />
     <option name="height" value="802" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -173,7 +169,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,7 +183,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
+              <option name="myItemId" value="suplink" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,7 +193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
+              <option name="myItemId" value="suplink" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -206,69 +201,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -321,7 +265,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24390244" sideWeight="0.67107195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16714491" sideWeight="0.67107195" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -391,19 +335,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/PDOManager.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="450" selection-end="450" vertical-scroll-proportion="0.4194079" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_c.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="194" column="20" selection-start="5308" selection-end="5308" vertical-scroll-proportion="4.7861843" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/User.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.66611844" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/login.php">
@@ -416,21 +350,41 @@
         <state line="10" column="14" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/Url.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="44" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="10" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/login_check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0390625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/register_check_email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.22167487" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/register_check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.04918033" />
+        <state line="6" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/Url.class.php">
+    <entry file="file://$PROJECT_DIR$/js/miniproject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+        <state line="25" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/PDOManager.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -442,56 +396,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/view/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/User.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="36" selection-start="595" selection-end="595" vertical-scroll-proportion="-9.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/PDOUrlManager.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+        <state line="34" column="38" selection-start="1094" selection-end="1094" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/url_check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+        <state line="29" column="46" selection-start="638" selection-end="638" vertical-scroll-proportion="-18.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="835" selection-end="835" vertical-scroll-proportion="-6.6666665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-10.791667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/miniproject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.44474393">
           <folding>
-            <marker date="1362075772000" expanded="true" signature="60:382" placeholder="{...}" />
-            <marker date="1362075772000" expanded="true" signature="129:358" placeholder="{&quot;type&quot;: &quot;POST&quot;...}" />
-            <marker date="1362075772000" expanded="true" signature="301:358" placeholder="{...}" />
+            <marker date="1362276556000" expanded="true" signature="416:442" placeholder="..." />
+            <marker date="1362276556000" expanded="true" signature="423:442" placeholder="..." />
+            <marker date="1362276556000" expanded="true" signature="661:673" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/register_check_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.8358663">
-          <folding />
         </state>
       </provider>
     </entry>

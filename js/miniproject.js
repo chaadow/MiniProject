@@ -9,7 +9,13 @@ $(document).ready( function() {
 			url: "../controllers/register_check_email.php",
 			data: "email="+email,
 			success: function(msg){
-				$(".alert").show();
+
+				if(msg!="Email is okay"){
+					$(".alert").html(msg);
+				$(".alert").show();	
+				}
+				
+
 
 				//$("#LoadingImage").hide();
 
@@ -18,6 +24,7 @@ $(document).ready( function() {
 			}
 
 		});
+		return false;
 
 		 
 	});
