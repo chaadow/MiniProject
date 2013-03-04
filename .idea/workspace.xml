@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8546b935-3ef6-4f55-8ee1-c3b1126ab290" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/suplink.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" afterPath="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/register_check_email.php" afterPath="$PROJECT_DIR$/controllers/register_check_email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/register_check_form.php" afterPath="$PROJECT_DIR$/controllers/register_check_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/url_check.php" afterPath="$PROJECT_DIR$/controllers/url_check.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/miniproject.js" afterPath="$PROJECT_DIR$/js/miniproject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard.php" afterPath="$PROJECT_DIR$/view/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/link.php" afterPath="$PROJECT_DIR$/view/link.php" />
     </list>
     <ignored path="MiniProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,10 +56,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="miniproject.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="miniproject.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/miniproject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="29" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.8872549">
+            <state line="80" column="29" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="suplink.sql" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/suplink.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="2" selection-start="255" selection-end="255" vertical-scroll-proportion="0.44117647">
               <folding />
             </state>
           </provider>
@@ -129,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/shorten.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/view/about.php" />
@@ -145,6 +155,7 @@
         <option value="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" />
         <option value="$PROJECT_DIR$/js/miniproject.js" />
         <option value="$PROJECT_DIR$/controllers/url_check.php" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -400,7 +411,15 @@
       <created>1362342723924</created>
       <updated>1362342723924</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="100%">
+      <created>1362357923824</created>
+      <updated>1362357923824</updated>
+    </task>
+    <task id="LOCAL-00006" summary="100%">
+      <created>1362357970771</created>
+      <updated>1362357970771</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -425,10 +444,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="802" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -482,7 +501,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="98.1% complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="100%" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -498,6 +517,7 @@
     <MESSAGE value="THAT S RIGHT BABY" />
     <MESSAGE value="98% complete" />
     <MESSAGE value="98.1% complete" />
+    <MESSAGE value="100%" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,25 +525,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="18" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.51970446">
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/PDOManager.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="94" selection-end="94" vertical-scroll-proportion="0.19950739">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shorten.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="41" selection-start="1681" selection-end="1681" vertical-scroll-proportion="-0.10837439">
@@ -630,7 +631,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/miniproject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="29" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.8872549">
+        <state line="80" column="29" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suplink.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="2" selection-start="255" selection-end="255" vertical-scroll-proportion="0.44117647">
           <folding />
         </state>
       </provider>
