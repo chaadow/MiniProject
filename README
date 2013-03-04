@@ -1,0 +1,24 @@
+Les entities sont dans le dossier : model
+
+les managers sont dans le dossier : controllers
+
+les pages de vue sont dans le dossier : view
+
+la connexion à la base de donnée est dans le dossier : core
+--------------------
+
+--------------------
+un fichier javascript : js/miniproject.js 
+----
+Gestion des donnée de formulaire en AJAX ( jquery +php) : pour le register.php et le dashboard.php ( ajout d'un url)
+
+
+--------------
+
+CSS : framework bootstrap by twitter.
+
+--------
+
+.htaccess et et fichier .sql à la racine du dossier.
+
+----------
