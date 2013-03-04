@@ -24,14 +24,17 @@ require_once("../model/User.class.php");
 extract($_POST);
 
 if(isset($name)&& isset($url)){
-	if(!empty($name)&& !empty($url)){
+
+    if(filter_var($url,FILTER_VALIDATE_URL) === false){
+        echo " URL is not valid  <button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>";
+        return false;
+    }else{
+
 		$urlManager = new PDOUrlManager();
 		$urlManager->addUrl($name,$url,$user->getId());
-        header('Location:../view/dashboard.php');
-	}else{
-        header('Location:../view/dashboard.php');
-		
-	}
+        echo " URL has been added successfully (Refresh in 2 seconds) ";
+    }
+
 
 }
 

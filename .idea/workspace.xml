@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8546b935-3ef6-4f55-8ee1-c3b1126ab290" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" afterPath="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/register_check_email.php" afterPath="$PROJECT_DIR$/controllers/register_check_email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/register_check_form.php" afterPath="$PROJECT_DIR$/controllers/register_check_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/url_check.php" afterPath="$PROJECT_DIR$/controllers/url_check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/miniproject.js" afterPath="$PROJECT_DIR$/js/miniproject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard.php" afterPath="$PROJECT_DIR$/view/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/link.php" afterPath="$PROJECT_DIR$/view/link.php" />
     </list>
     <ignored path="MiniProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,13 +30,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="register_check.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="register_check.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/register_check.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="456" selection-end="456" vertical-scroll-proportion="0.6640625">
+            <state line="7" column="7" selection-start="148" selection-end="148" vertical-scroll-proportion="-4.375">
               <folding>
                 <marker date="1362342429000" expanded="true" signature="0:456" placeholder="..." />
-                <element signature="e#6#8#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,7 +44,7 @@
       <file leaf-file-name="PDOUserManager.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/PDOUserManager.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-10.375">
+            <state line="46" column="0" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-28.75">
               <folding />
             </state>
           </provider>
@@ -46,8 +53,9 @@
       <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="29" selection-start="871" selection-end="871" vertical-scroll-proportion="-6.25">
+            <state line="32" column="0" selection-start="842" selection-end="966" vertical-scroll-proportion="-5.625">
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -55,28 +63,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="miniproject.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/miniproject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="29" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.8872549">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="url_check.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/url_check.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="60" selection-start="823" selection-end="823" vertical-scroll-proportion="-10.041667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="PDOUrlManager.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/PDOUrlManager.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="5" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-4.5833335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="miniproject.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/miniproject.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="1" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="miniproject.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/miniproject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="7" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+            <state line="14" column="20" selection-start="343" selection-end="343" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -85,11 +93,12 @@
       <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="27" selection-start="371" selection-end="371" vertical-scroll-proportion="-6.875">
+            <state line="55" column="0" selection-start="1475" selection-end="1475" vertical-scroll-proportion="-6.25">
               <folding>
-                <marker date="1362335890000" expanded="true" signature="422:448" placeholder="..." />
-                <marker date="1362335890000" expanded="true" signature="429:448" placeholder="..." />
-                <marker date="1362335890000" expanded="true" signature="667:679" placeholder="..." />
+                <marker date="1362357035000" expanded="true" signature="422:448" placeholder="..." />
+                <marker date="1362357035000" expanded="true" signature="429:448" placeholder="..." />
+                <marker date="1362357035000" expanded="true" signature="667:679" placeholder="..." />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,16 +107,7 @@
       <file leaf-file-name="register_check_form.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/register_check_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-13.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_check_email.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/register_check_email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="1" selection-start="143" selection-end="711" vertical-scroll-proportion="-13.5">
+            <state line="18" column="10" selection-start="389" selection-end="594" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -129,22 +129,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/controllers/register_check_email.php" />
-        <option value="$PROJECT_DIR$/controllers/url_check.php" />
         <option value="$PROJECT_DIR$/shorten.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/view/about.php" />
         <option value="$PROJECT_DIR$/core/PDOManager.class.php" />
-        <option value="$PROJECT_DIR$/view/link.php" />
-        <option value="$PROJECT_DIR$/view/dashboard.php" />
-        <option value="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" />
-        <option value="$PROJECT_DIR$/controllers/register_check_form.php" />
         <option value="$PROJECT_DIR$/controllers/PDOUserManager.class.php" />
         <option value="$PROJECT_DIR$/view/register.php" />
         <option value="$PROJECT_DIR$/css/miniproject.css" />
-        <option value="$PROJECT_DIR$/js/miniproject.js" />
         <option value="$PROJECT_DIR$/controllers/register_check.php" />
+        <option value="$PROJECT_DIR$/controllers/register_check_email.php" />
+        <option value="$PROJECT_DIR$/view/link.php" />
+        <option value="$PROJECT_DIR$/controllers/register_check_form.php" />
+        <option value="$PROJECT_DIR$/view/dashboard.php" />
+        <option value="$PROJECT_DIR$/controllers/PDOUrlManager.class.php" />
+        <option value="$PROJECT_DIR$/js/miniproject.js" />
+        <option value="$PROJECT_DIR$/controllers/url_check.php" />
       </list>
     </option>
   </component>
@@ -396,7 +396,11 @@
       <created>1362342709599</created>
       <updated>1362342709599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="98.1% complete">
+      <created>1362342723924</created>
+      <updated>1362342723924</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -501,22 +505,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/link.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.7265625">
-          <folding>
-            <element signature="e#6#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="380" selection-end="380" vertical-scroll-proportion="0.5078125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="18" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.51970446">
@@ -559,74 +547,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/register_check_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="143" selection-end="711" vertical-scroll-proportion="-13.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/register_check_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-13.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/PDOUrlManager.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-4.5833335">
+        <state line="17" column="23" selection-start="401" selection-end="401" vertical-scroll-proportion="0.6640625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/PDOUserManager.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-10.375">
+        <state line="46" column="0" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-28.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/register.php">
+    <entry file="file://$PROJECT_DIR$/view/link.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="871" selection-end="871" vertical-scroll-proportion="-6.25">
+        <state line="46" column="35" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.4921875">
           <folding>
-            <element signature="n#style#0;n#img#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6#161#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/miniproject.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="1" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
+        <state line="112" column="1" selection-start="1500" selection-end="1500" vertical-scroll-proportion="-0.029411765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/miniproject.js">
+    <entry file="file://$PROJECT_DIR$/view/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="7" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="371" selection-end="371" vertical-scroll-proportion="-6.875">
+        <state line="32" column="0" selection-start="842" selection-end="966" vertical-scroll-proportion="-5.625">
           <folding>
-            <marker date="1362335890000" expanded="true" signature="422:448" placeholder="..." />
-            <marker date="1362335890000" expanded="true" signature="429:448" placeholder="..." />
-            <marker date="1362335890000" expanded="true" signature="667:679" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/register_check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="456" selection-end="456" vertical-scroll-proportion="0.6640625">
+        <state line="7" column="7" selection-start="148" selection-end="148" vertical-scroll-proportion="-4.375">
           <folding>
             <marker date="1362342429000" expanded="true" signature="0:456" placeholder="..." />
-            <element signature="e#6#8#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1475" selection-end="1475" vertical-scroll-proportion="-6.25">
+          <folding>
+            <marker date="1362357035000" expanded="true" signature="422:448" placeholder="..." />
+            <marker date="1362357035000" expanded="true" signature="429:448" placeholder="..." />
+            <marker date="1362357035000" expanded="true" signature="667:679" placeholder="..." />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/register_check_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="389" selection-end="594" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/PDOUrlManager.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="343" selection-end="343" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/url_check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="60" selection-start="823" selection-end="823" vertical-scroll-proportion="-10.041667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/miniproject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="29" selection-start="2076" selection-end="2076" vertical-scroll-proportion="0.8872549">
+          <folding />
         </state>
       </provider>
     </entry>

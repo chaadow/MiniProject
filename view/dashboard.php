@@ -37,7 +37,7 @@ session_start();
         </ul>
         
         <ul class="nav pull-right">
-
+               
             <li><a href="logout.php">Logout</a></li>
             <li class="divider-vertical"></li>
             <li><a href="about.php">About</a></li>
@@ -51,10 +51,13 @@ session_start();
 
     </div>
     <hr>
+    <div class="alert alert-info fade in" style="display : none">
+
+    </div>
     
-        <form  method="post" class="form-inline" action="../controllers/url_check.php">
-        <input type="text" class="input-large name" name="name" placeholder="Name">
-        <input type="url" class="input-large url" name="url" placeholder="http://"> 
+        <form  method="post" class="form-inline" id="urlform" action="../controllers/url_check.php">
+        <input type="text" class="input-large name" name="name" placeholder="Name" required>
+        <input type="url" class="input-large url" name="url" placeholder="http:// "required>
         <button type="submit" class="btn-large btn-inverse">Generate</button>
         
         </form>
@@ -106,6 +109,7 @@ session_start();
 
 <!-- (TIP) Google returns the latest version of jquery in the 1 series (from 1.0 to 1.9.9) -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="../js/miniproject.js"></script>
 
 </body>
 

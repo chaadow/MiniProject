@@ -15,7 +15,7 @@ if(isset($email) && !empty($email)){
         $sql = $sql->fetch(PDO::FETCH_ASSOC);
 
         if($sql){
-            echo "Username is taken";
+            echo "Email is taken";
         }else{
             if(filter_var($email,FILTER_VALIDATE_EMAIL) === false)
             {

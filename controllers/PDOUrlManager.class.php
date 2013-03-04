@@ -25,6 +25,7 @@ class PDOUrlManager{
                 ':shortUrl' => $shortUrl,
                 ':userId' => $userId
             ));
+
         }catch (PDOException $e){
             echo $e->errorInfo;
         }

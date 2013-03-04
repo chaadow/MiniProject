@@ -6,13 +6,27 @@
  * Time: 15:46
  * To change this template use File | Settings | File Templates.
  */
+
+define("PATH", "/Users/Chedly/Sites/suplink/");
+require_once(PATH."model/User.class.php");
+require_once(PATH."controllers/PDOUrlManager.class.php");
+
+session_start();
+if(isset($_SESSION['user'])){
+
+    $user = $_SESSION['user'];
+
+
+
+}else{
+    header("Location:/suplink/view/");
+}
 if (!isset ($_GET["k"])){
     header("Location:/suplink/view");
 }else{
     $key = $_GET['k'];
 
 }
-echo $key;
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -28,11 +42,15 @@ echo $key;
 <body>
 <div class="navbar navbar-static-top">
     <div class="navbar-inner">
-        <a class="brand" href="register.php">SupLink</a>
-        <ul class="nav pull-right">
-            <li><a href="login.php">Login</a></li>
+        <a class="brand" href="dashboard.php"> SupLink</a>
+        <ul class="nav pull-left">
             <li class="divider-vertical"></li>
-            <li><a href="register.php">Register</a></li>
+            <li><a href="dashboard.php"> <i class="icon-home icon-white"> </i>  <?php echo $user->getEmail(); ?></a></li>
+        </ul>
+
+        <ul class="nav pull-right">
+
+            <li><a href="logout.php">Logout</a></li>
             <li class="divider-vertical"></li>
             <li><a href="about.php">About</a></li>
         </ul>

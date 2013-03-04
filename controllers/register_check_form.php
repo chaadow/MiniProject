@@ -14,7 +14,7 @@ require_once ("PDOUserManager.class.php");
         echo "ERROR : passwords must be identitical";
         return false;
     }elseif(filter_var($email,FILTER_VALIDATE_EMAIL) === false){
-        echo " Email is not valid";
+        echo " Email is not valid  <button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>";
         return false;
     }else{
         try {
@@ -25,7 +25,7 @@ require_once ("PDOUserManager.class.php");
             $sql = $sql->fetch(PDO::FETCH_ASSOC);
 
             if($sql){
-                echo "Username is taken";
+                echo "Email is taken";
                 return false;
             }
         }catch  (PDOException $e) {
