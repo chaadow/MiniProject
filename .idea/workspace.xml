@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8546b935-3ef6-4f55-8ee1-c3b1126ab290" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/suplink.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard.php" afterPath="$PROJECT_DIR$/view/dashboard.php" />
     </list>
     <ignored path="MiniProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,11 +104,10 @@
       <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1475" selection-end="1475" vertical-scroll-proportion="-6.25">
+            <state line="55" column="0" selection-start="1529" selection-end="1529" vertical-scroll-proportion="-6.25">
               <folding>
-                <marker date="1362357035000" expanded="true" signature="422:448" placeholder="..." />
-                <marker date="1362357035000" expanded="true" signature="429:448" placeholder="..." />
-                <marker date="1362357035000" expanded="true" signature="667:679" placeholder="..." />
+                <marker date="1362359551000" expanded="true" signature="422:448" placeholder="..." />
+                <marker date="1362359551000" expanded="true" signature="429:448" placeholder="..." />
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -419,7 +418,11 @@
       <created>1362357970771</created>
       <updated>1362357970771</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="100%">
+      <created>1362357997650</created>
+      <updated>1362357997650</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -598,11 +601,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1475" selection-end="1475" vertical-scroll-proportion="-6.25">
+        <state line="55" column="0" selection-start="1529" selection-end="1529" vertical-scroll-proportion="-6.25">
           <folding>
-            <marker date="1362357035000" expanded="true" signature="422:448" placeholder="..." />
-            <marker date="1362357035000" expanded="true" signature="429:448" placeholder="..." />
-            <marker date="1362357035000" expanded="true" signature="667:679" placeholder="..." />
+            <marker date="1362359551000" expanded="true" signature="422:448" placeholder="..." />
+            <marker date="1362359551000" expanded="true" signature="429:448" placeholder="..." />
             <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

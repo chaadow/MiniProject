@@ -6,7 +6,7 @@
  * Time: 20:17
  * To change this template use File | Settings | File Templates.
  */
-require_once "../core/PDOManager.class.php";
+require_once ("../core/PDOManager.class.php");
 require_once ("PDOUserManager.class.php");
 
     extract($_POST);

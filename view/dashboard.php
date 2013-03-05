@@ -1,7 +1,7 @@
 <?php
-define("PATH", "/Users/Chedly/Sites/suplink/");
-require_once(PATH."model/User.class.php");
-require_once(PATH."controllers/PDOUrlManager.class.php");
+//define("PATH", "/Users/Chedly/Sites/suplink/");
+require_once("../model/User.class.php");
+require_once("../controllers/PDOUrlManager.class.php");
 
 session_start();
     if(isset($_SESSION['user'])){
@@ -35,9 +35,9 @@ session_start();
             <li class="divider-vertical"></li>
             <li><a href="dashboard.php"> <i class="icon-home icon-white"> </i>  <?php echo $user->getEmail(); ?></a></li>
         </ul>
-        
+       
         <ul class="nav pull-right">
-               
+            
             <li><a href="logout.php">Logout</a></li>
             <li class="divider-vertical"></li>
             <li><a href="about.php">About</a></li>
@@ -59,6 +59,7 @@ session_start();
         <input type="text" class="input-large name" name="name" placeholder="Name" required>
         <input type="url" class="input-large url" name="url" placeholder="http:// "required>
         <button type="submit" class="btn-large btn-inverse">Generate</button>
+          <img  id="loaderurl" style="display: none; width: 20px; height: 20px; margin-left: 20px;" src="../img/ajax-loader.gif" alt="Loader">
         
         </form>
         <hr>
@@ -84,7 +85,7 @@ session_start();
                         if($url['active']){
                             echo '<tr class="success"><td>' . $url["name"] . '</td>';
                             echo '<td>' . $url["url"] . '</td>';
-                            echo '<td> <a href="link.php?k='.$url['id'].'">  suplink.com/' . $url['shortUrl'] . ' </a></td>';
+                            echo '<td> <a href="/suplink/'.$url['shortUrl'].'">  suplink.com/' . $url['shortUrl'] . ' </a></td>';
                             echo '<td>' . $url["click"] . '</td>';
                             echo '<td>' . $url["dateUrl"] . '</td> ';
                             echo '<td> <a href="../controllers/active.php?id='.$url['id'].'&active='.$url['active'].'">   <i class="icon-ok"> </i>  </a> </td>';
@@ -92,7 +93,7 @@ session_start();
                         }else{
                             echo '<tr class="error"> <td>' . $url["name"] . '</td>';
                             echo '<td>' . $url["url"] . '</td>';
-                            echo '<td> <a href="link.php?k='.$url['id'].'">  suplink.com/' . $url['shortUrl'] . ' </a></td>';
+                            echo '<td> <a href="">  suplink.com/' . $url['shortUrl'] . ' </a></td>';
                             //echo '<td> <a href="link.php?k='.$url['id'].'"> suplink  </a> </td> ';
                             echo '<td>' . $url["click"] . '</td>';
                             echo '<td>' . $url["dateUrl"] . '</td> ';

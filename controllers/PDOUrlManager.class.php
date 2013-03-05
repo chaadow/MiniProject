@@ -1,7 +1,7 @@
 <?php
-define("PATH", "/Users/Chedly/Sites/suplink/");
-require_once(PATH."core/PDOManager.class.php");
-require_once(PATH."model/Url.class.php");
+//define("PATH", "/Users/Chedly/Sites/suplink/");
+require_once("../core/PDOManager.class.php");
+require_once("../model/Url.class.php");
 /**
  * Created by JetBrains PhpStorm.
  * User: Chedly

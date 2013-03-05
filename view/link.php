@@ -7,9 +7,9 @@
  * To change this template use File | Settings | File Templates.
  */
 
-define("PATH", "/Users/Chedly/Sites/suplink/");
-require_once(PATH."model/User.class.php");
-require_once(PATH."controllers/PDOUrlManager.class.php");
+//define("PATH", "/Users/Chedly/Sites/suplink/");
+require_once("../model/User.class.php");
+require_once("../controllers/PDOUrlManager.class.php");
 
 session_start();
 if(isset($_SESSION['user'])){
